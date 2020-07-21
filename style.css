@@ -8,9 +8,10 @@ body {
 }
 
 .container {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
+/* Main Container (All Three HTML Files) */
 div.col-lg-8 {
 	background-color: white;
     padding: 20px;
@@ -19,9 +20,31 @@ div.col-lg-8 {
     border-width: 10px;
 }
 
-div.col-sm-3 {
+/* Sidebar 'Let's Connect' (All Three HTML Files) */
+aside {
+    margin: 20px;
+    margin-left: 80px;
+    height: 220px;
+}
+
+aside.col-sm-2 {
 	background-color: white;
-	padding: 20px;
+    padding: 8px;
+    border-style: double;
+    border-color: black;
+    border-width: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#linkedIn {
+    float: left;
+}
+
+#github {
+    float: right;
 }
 
 .navbar-brand {
@@ -32,6 +55,7 @@ div.col-sm-3 {
 	font-size: 24px;
 }
 
+/* Photo of Zack */
 img {
 	float: right;
     border: 5px;
@@ -55,6 +79,7 @@ footer {
 	color: black;
 }
 
+/* Portfolio Page Material */
 img.game1 {
     float: left;
     padding: 20px;
@@ -82,4 +107,20 @@ img.blog {
 
 h3 {
     text-align: center;
+}
+
+/* Media Querie Section ???? */
+
+@media screen and (max-width: 1199px) {
+    aside {
+        position: fixed;
+        height: 250px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    img.game1 img.game2 img.blog {
+
+    }
 }
