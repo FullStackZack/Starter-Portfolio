@@ -5,13 +5,12 @@
   <head>
 
     <meta charset="UTF-8">
-    <!-- Title -->
-    <title>My Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap -->
+    <title>Zack White | Home</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!-- CSS -->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap" rel="stylesheet">
@@ -21,59 +20,71 @@
   <body>
 
     <header>
-    <!-- Navigation Bar -->
-          <nav class="navbar navbar-dark bg-dark">
-            <a class="navbar-brand">Zack White</a>
-        
-            <!-- Dropdown Menu -->
-            <div class="dropdown">
-                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Menu
-                </a>
-                
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                  <a class="dropdown-item" href="index.html">Home</a>
-                  <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-                  <a class="dropdown-item" href="contact.html">Contact</a>
-                </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <a class="navbar-brand" href="index.html">Zack White</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Me</a>
+                </li>
+              </ul>
             </div>
+
           </nav>
 
     </header>
 
-    <!-- Jumbotron -->
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Zack is an aspiring full-stack web developer living in Austin, TX</h1>
-        <p class="lead">"Every artist was first an amateur” - Ralph Waldo Emerson</p>
-      </div>
-    </div>
+    <main>
 
-    <main class="row">
-        <!-- Image of Zack -->
-        <div class="col-md-3">
-            <img src="zhwhite.jpeg" alt="Photo of Zack W.">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1 class="aboutMe">About Me</h1>
+                    <hr>
+                    <div class="bio">
+                        <img src="images/zack-white.jpeg" alt="Zack by the beach">
+                        <p class="first-line">
+                            Zack is an aspiring full-stack web developer living in Austin, TX
+                        </p>
+                        <p>
+                            I'm currently enrolled at The Coding Boot Camp at UT Austin for a 24-week Full Stack Flex program designed to provide students with the knowledge & skills to build dynamic end-to-end web applications. I'm set to graduate in December 2020. Hook 'Em!
+                        </p>
+                        <p>
+                            After completing my undergrad studies at The Univeristy of Mississippi in 2015, I've spent most of my career selling cloud-based software solutions - primarily within the restaurant industry.
+                        </p>
+                        <p>
+                            I have recently decided to pivot from career in sales and pursue new challenges that will allow me to be more creative & hands-on with tech. I have high hopes of mastering computer programming and web development.
+                        </p>
+                        <p>
+                            Onward & Upward!
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <!-- About Me -->
-        <section class="col-md-6">
-            <h1>About Me</h1>
-            <p>I'm currently enrolled at The Coding Boot Camp at UT Austin for a 24-week Full Stack Flex program designed to provide students with the knowledge & skills to build dynamic end-to-end web applications. I'm set to graduate in December 2020. Hook 'Em!</p>
-            <p>After completing my undergrad studies at The Univeristy of Mississippi in 2015, I've spent most of my career selling cloud-based software solutions - primarily within the restaurant industry.</p>
-            <p>I have recently decided to pivot from career in sales and pursue new challenges that will allow me to be more creative & hands-on with tech. I have high hopes of mastering computer programming and web development. Onward & upward!</p>
-        </section>
+    </main>
 
-        <!-- Sidebar -->
-        <div class="col-md-3">
-            <h3></h3>
-        </div>
+    <footer>
+      <p>&copy Copyright Zack White 2020</p>
+    </footer>
 
-      </main>
-
-      <!-- Bootstrap JS -->
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
   </body>
 

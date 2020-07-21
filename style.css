@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+body {
+	background-image: url(images/light-gray.jpg);
+}
+
+.container {
+	margin-top: 20px;
+}
+
+div.col-lg-8 {
+	background-color: white;
+    padding: 20px;
+    border-style: double;
+    border-color: black;
+    border-width: 10px;
+}
+
+div.col-sm-3 {
+	background-color: white;
+	padding: 20px;
+}
+
+.navbar-brand {
+	font-size: 30px;
+}
+
+.nav-link {
+	font-size: 24px;
+}
+
+img {
+	float: right;
+    border: 5px;
+    padding-right: 5px;
+}
+
+.bio {
+	font-size: 20px;
+}
+
+.first-line {
+	font-style: italic;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+  	width: 100%;
+	text-align: center;
+	color: black;
+}
+
+img.game1 {
+    float: left;
+    padding: 20px;
+    justify-content: center;
+}
+
+img.game2 {
+    float: left;
+    padding: 20px;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+img.blog {
+    float: left;
+    padding: 20px;
+    justify-content: center
+}
+
+.game {
+    max-width: 100%;
+    height: auto;
+}
+
+h3 {
+    text-align: center;
+}
