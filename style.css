@@ -109,6 +109,11 @@ h3 {
     text-align: center;
 }
 
+#moodiiImg {
+    float: left;
+    padding-top: 10px;
+}
+
 /* Media Querie Section ???? */
 
 @media screen and (max-width: 1199px) {
@@ -119,8 +124,8 @@ h3 {
 }
 
 
-@media screen and (max-width: 400px) {
-    img.game1 img.game2 img.blog {
-
+@media screen and (max-width: 500px) {
+    #moodiiImg {
+        visibility: hidden;
     }
 }
