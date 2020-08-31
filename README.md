@@ -1,6 +1,6 @@
 # zackwhite.github.io
 
-Link: https://fullstackzack.github.io/zackwhite.github.io/
+Link: https://fullstackzack.github.io/zackwhite/
 
 For Homework 2, we were asked to create a responsive portfolio website.
 
@@ -25,9 +25,3 @@ Must contain your personalized information. (bio, name, images, links to social 
 Must properly utilize Bootstrap components and grid system.
 
 -----
-
-Results:
-
-While I believe I met the minimum requirements, unfotunately I was unable to get media queries down. I found this area to be very tough. I couldn't figure out how to make my mobile-deployed website work properly.
-
-Overall, I felt like I did well - just need to lock down media queries. Fun assignment!
