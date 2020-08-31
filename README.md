@@ -25,3 +25,4 @@ Must contain your personalized information. (bio, name, images, links to social 
 Must properly utilize Bootstrap components and grid system.
 
 -----
+<img src="images/zackportfolio.png" alt="Screenshot of My Portfolio">
