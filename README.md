@@ -1,4 +1,4 @@
-# zackwhite.github.io
+# My Portfolio
 
 Link: https://fullstackzack.github.io/zackwhite/
 
