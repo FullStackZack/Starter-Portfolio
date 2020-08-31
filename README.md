@@ -2,6 +2,8 @@
 
 Link: https://fullstackzack.github.io/zackwhite/
 
+<img src="images/zackportfolio.png" alt="Screenshot of My Portfolio">
+
 For Homework 2, we were asked to create a responsive portfolio website.
 
 Minimum Requirements:
@@ -23,6 +25,3 @@ Each page must have valid and correct HTML. (use a validation service)
 Must contain your personalized information. (bio, name, images, links to social media, etc.)
 
 Must properly utilize Bootstrap components and grid system.
-
------
-<img src="images/zackportfolio.png" alt="Screenshot of My Portfolio">
